@@ -26,7 +26,7 @@ def run_command(command: str) -> list:
 
 def log_to_file(line: str):
     f = open("Benchmark_output", "a")
-    f.write(line)
+    f.write(line + "\n")
     f.close
 
 # reads through all the output lines and finds the one that has the duration
