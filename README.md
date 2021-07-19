@@ -9,6 +9,7 @@ To use benchmark_util.py:
 - open it in a text editor and add your public pool contract key (p2 singleton address) and your farming public key. Configure the directories and thread/bucket lists
 - Save and exit
 - Run the script using python3, the directory the terminal is in will be where the CSV file is saved to
+- Take care to rename the benchmark file after it is done as the script will just append data to it if run again
 
 Example of my rigs benchmark:
 
