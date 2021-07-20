@@ -5,6 +5,10 @@ You must edit the code to use your files for now, but argument processing wouldn
 
 CSV format: THREADS, BUCKETS, DURATION
 
+To use benchmark_graph_util.py
+- run pip3 install matplotlib
+- edit the bottom of the script to add the benchmarks you want to graph
+
 To use benchmark_util.py:  
 - open it in a text editor and add your public pool contract key (p2 singleton address) and your farming public key. Configure the directories and thread/bucket lists
 - Save and exit
